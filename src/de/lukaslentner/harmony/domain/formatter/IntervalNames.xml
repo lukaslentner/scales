@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<intervalNames>
+  <translation languageCode="EN">
+    <intervalName value="0" commonName="Perfect Unison">
+      <furtherName name="Diminished Second" />
+    </intervalName>
+    <intervalName value="100000000" commonName="Minor Second">
+      <furtherName name="Augmented Unison" />
+      <furtherName name="Semitone" />
+      <furtherName name="Half Tone" />
+      <furtherName name="Half Step" />
+    </intervalName>
+    <intervalName value="200000000" commonName="Major Second">
+      <furtherName name="Diminished Third" />
+      <furtherName name="Tone" />
+      <furtherName name="Whole Tone" />
+      <furtherName name="Whole Step" />
+    </intervalName>
+    <intervalName value="300000000" commonName="Minor Third">
+      <furtherName name="Augmented Second" />
+    </intervalName>
+    <intervalName value="400000000" commonName="Major Third">
+      <furtherName name="Diminished Fourth" />
+    </intervalName>
+    <intervalName value="500000000" commonName="Perfect Forth">
+      <furtherName name="Augmented Third" />
+    </intervalName>
+    <intervalName value="600000000" commonName="Tritone">
+      <furtherName name="Augmented Fourth" />
+      <furtherName name="Diminished Fifth" />
+    </intervalName>
+    <intervalName value="700000000" commonName="Perfect Fifth">
+      <furtherName name="Diminished Sixth" />
+    </intervalName>
+    <intervalName value="800000000" commonName="Minor Sixth">
+      <furtherName name="Augmented Fifth" />
+    </intervalName>
+    <intervalName value="900000000" commonName="Major Sixth">
+      <furtherName name="Diminished Seventh" />
+    </intervalName>
+    <intervalName value="1000000000" commonName="Minor Seventh">
+      <furtherName name="Augmented Sixth" />
+    </intervalName>
+    <intervalName value="1100000000" commonName="Major Seventh">
+      <furtherName name="Diminished Octave" />
+    </intervalName>
+    <intervalName value="1200000000" commonName="Perfect Octave">
+      <furtherName name="Augmented Seventh" />
+      <furtherName name="Diminished Ninth" />
+      <furtherName name="Perfect Eighth" />
+    </intervalName>
+    <intervalName value="1300000000" commonName="Minor Ninth">
+      <furtherName name="Augmented Octave" />
+      <furtherName name="Augmented Eighth" />
+    </intervalName>
+    <intervalName value="1400000000" commonName="Major Ninth">
+      <furtherName name="Diminished Tenth" />
+    </intervalName>
+    <intervalName value="1500000000" commonName="Minor Tenth">
+      <furtherName name="Augmented Ninth" />
+    </intervalName>
+    <intervalName value="1600000000" commonName="Major Tenth">
+      <furtherName name="Diminished Eleventh" />
+    </intervalName>
+    <intervalName value="1700000000" commonName="Perfect Eleventh">
+      <furtherName name="Augmented Tenth" />
+    </intervalName>
+    <intervalName value="1800000000" commonName="[not set]">
+      <furtherName name="Augmented Eleventh" />
+      <furtherName name="Diminished Twelfth" />
+    </intervalName>
+    <intervalName value="1900000000" commonName="Perfect Twelfth">
+      <furtherName name="Diminished Thirteenth" />
+      <furtherName name="Tritave" />
+    </intervalName>
+    <intervalName value="2000000000" commonName="Minor Thirteenth">
+      <furtherName name="Augmented Twelfth" />
+    </intervalName>
+    <intervalName value="2100000000" commonName="Major Thirteenth">
+      <furtherName name="Diminished Fourteenth" />
+    </intervalName>
+    <intervalName value="2200000000" commonName="Minor Fourteenth">
+      <furtherName name="Augmented Thirteenth" />
+    </intervalName>
+    <intervalName value="2300000000" commonName="Major Fourteenth">
+      <furtherName name="Diminished Double Octave" />
+      <furtherName name="Diminished Fifteenth" />
+    </intervalName>
+    <intervalName value="2400000000" commonName="Perfect Double Octave">
+      <furtherName name="Augmented Fourteenth" />
+      <furtherName name="Perfect Fifteenth" />
+    </intervalName>
+  </translation>
+</intervalNames>

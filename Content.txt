@@ -1,0 +1,98 @@
+2-2-1-2-2-2-1 Heptatonia prima (diatonic)	7 Modes		je	12 Realisierungen
+2-1-2-2-2-2-1 Heptatonia secunda		7 Modes			12
+1-1-2-2-2-2-2 Heptatonia tertia			7 Modes			12
+
+1-1-1-1-1-1-1-1-1-1-1-1 Chromatic		1 Mode			1
+2-2-2-2-2-2 Whole Tone				1 Mode			2
+2-1-2-1-2-1-2-1 and 1-2-1-2-1-2-1-2		2 Modes			3
+
+Es gibt generell Skalen aus 12-Tonsystem: 12 Tonpl�tze wobei der Grundton immer vorhanden ist: 2^11=2048
+
+Nur 1er, Nur 2er
+Whole, Chromatic
+
+Nur 1er und 2er:
+
+6: 6:1,0:2 6!/6!/0!=1 {1} Whole
+
+7: 5:1,2:2 7!/5!/2!=21 {3*7=21} Heptatonia 1-3, 3 entsteht durch einf�gung aus Whole (6)
+
+8: 4:1,4:2 8!/4!/4!=70 {68+2=70} a) {(8+8+4)+(4*8)+(2*8)=68} Entsteht aus 7 und haben deswegen mindestens ein 1-1 Paar, b) {2} ist half/whole mit 2 Modi
+a) Details:
+Hep-Tertia: 3 M�gliche Einf�gungen: Die beiden 1-Paare sind entweder 0/4, 1/3 oder 2/2 GT voneinander getrennt. Je 8 Modi au�er 2/2 nur 4 Modi wegen Symetrie
+Hep-Secunda: Geklumpt=Equal zu Hep-Tertia-Folge, 4 M�gliche andere Einf�gungen je 8 Modi
+Hep-Prima: Eine Einf�gung ohne Klumpung und eine Einf�gung mit 1-Paar mit rechts und links 2 GT mit je 8 Modi 
+Example: [1, 1, 1, 1, 2, 2, 2, 2] Hep3-1	8
+Example: [1, 1, 1, 2, 1, 2, 2, 2] Hep2-4	8
+Example: [1, 1, 1, 2, 2, 1, 2, 2] Hep1-2	8
+Example: [1, 1, 1, 2, 2, 2, 1, 2] Hep2-1	8
+Example: [1, 1, 2, 1, 1, 2, 2, 2] Hep3-2	8
+Example: [1, 1, 2, 1, 2, 1, 2, 2] Hep2-3	8
+Example: [1, 1, 2, 1, 2, 2, 1, 2] Hep1-1	8
+Example: [1, 1, 2, 2, 1, 1, 2, 2] Hep3-3	4
+Example: [1, 1, 2, 2, 1, 2, 1, 2] Hep2-2	8
+Example: [1, 2, 1, 2, 1, 2, 1, 2] HT-GT		2
+
+9: 3:1,6:2 9!/3!/6!=84 {9*9 + 3 = 84}
+Example: [1, 1, 1, 1, 1, 1, 2, 2, 2] : 9x	Paar 0/6 = 6/0		0-0=0
+Example: [1, 1, 1, 1, 1, 2, 1, 2, 2] : 9x	Paar 5/1		1-0=1
+Example: [1, 1, 1, 1, 1, 2, 2, 1, 2] : 9x	Paar 1/5		0-1=1
+Example: [1, 1, 1, 1, 2, 1, 1, 2, 2] : 9x	Paar 4/2		2-0=2
+Example: [1, 1, 1, 1, 2, 1, 2, 1, 2] : 9x				1-1=2
+Example: [1, 1, 1, 1, 2, 2, 1, 1, 2] : 9x	Paar 2/4		0-2=2
+Example: [1, 1, 1, 2, 1, 1, 1, 2, 2] : 9x	Paar 3/3		3-0=3=0-3
+Example: [1, 1, 1, 2, 1, 1, 2, 1, 2] : 9x				2-1=3
+Example: [1, 1, 1, 2, 1, 2, 1, 1, 2] : 9x				1-2=3
+Example: [1, 1, 2, 1, 1, 2, 1, 1, 2] : 3x	HT-HT-GT		2-2=4
+
+
+10: 2:1,8:2 10!/2!/8!=45 {10+10+10+10+5} 2 GT verteilt mit Abstand HT
+0/8 mit je 10 Modi
+1/7 
+2/6
+3/5
+4/4 KEINE 10 Modi wegen Symetrie: 5
+
+11: 1:1,10:2 11!/1!/10!=11 {11} Chroma mit einem 1-Paar zusammengefasst zu "2"
+
+12: 0:1,12:2 12!/0!/12!=1 {1} Chroma
+
+
+Konkrete Modus-Operationen
+1-1 => 2:
+	1-1-x => 2-x
+	x-1-1 => x-2
+	1-x-1 => NULL, die HT sind im Pattern benachbart aber k�nnen nicht operiert werden
+2 => 1-1:
+	geht immer
+
+--------------------------------------------------------------------------------------------------------------
+
+Definitionen:
+Pitch: Konkrete Tonh�he (Cent von 1 Hz)
+Interval: Konkreter Tonh�henunterschied (Cent)
+PitchEqualTemperedValue: 
+PitchClass: Bzgl. einem Zero-Pitch werden alle Pitches identifiziert mit dem Interval in �Cent modulo 1200_000_000
+Scale: PitchSet mit maximalem und implizitem Interval=Octave (hat Normalform (PitchSetList))
+PitchClassSet (hat Normalform)
+	-> IntervalVektor = Map<Interval,Count>
+	-> in Normalform -> IntervalList
+	-> mit Zero-Pitch -> Scale
+	
+
+	
+Nur 1er und 2er:
+
+- HTGT
+- GT
+- DIATONIC
+- MELODIC
+
+kann man nicht mehr zusammenfassen, CHROMATIC kann man nicht mehr splitten
+
+Splitten:
+2 -> 1-1
+
+Zusammenfassen:
+1-1 -> 2
+
